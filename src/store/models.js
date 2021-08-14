@@ -1,0 +1,1 @@
+export { default as page2Reducer } from './page2Reducer';
