@@ -1,5 +1,4 @@
 # How to run Page2
---------
 
 This example demos a basic host application loading from different remote component.
 
@@ -8,25 +7,24 @@ This example demos a basic host application loading from different remote compon
 - DomainComponents standalone application which exposes enhanced UI Button component.
 
 ## Running Demo
-----------
 1. Clone LibApp Remote as a sibling folder to Page2
-  Under LibApp
-    * npm install
-    * npm start
+    - Under LibApp
+      * npm install
+      * npm start
 2. Clone UIComponents Remote as a sibling folder to Page2
-  Under UIComponents
-    * npm install
-    * npm start
+    - Under UIComponents
+      * npm install
+      * npm start
 3. Clone DomainComponnents Remote as a sibling folder to Page2
-  Under DomainComponnents
+    - Under DomainComponnents
+      * npm install
+      * npm start
+4. Under Page2 Remote
     * npm install
     * npm start
-4. Under Page2 Remote
-  * npm install
-  * npm start
 
 
-* localhost:8085 (STANDALONE REMOTE LibApp holds all lib, store and context)
-* localhost:8082 (STANDALONE REMOTE DomainComponents)
-* localhost:8083 (STANDALONE REMOTE UIComponents)
-* localhost:8085 (STANDALONE REMOTE Page2)
+- localhost:8085 (STANDALONE REMOTE LibApp holds all lib, store and context)
+- localhost:8082 (STANDALONE REMOTE DomainComponents)
+- localhost:8083 (STANDALONE REMOTE UIComponents)
+- localhost:8085 (STANDALONE REMOTE Page2)
